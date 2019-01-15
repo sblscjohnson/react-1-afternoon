@@ -18,10 +18,10 @@ class Palindrome extends Component {
     handleCheckPalindrome(userInput) {
         let normalWay = userInput;
         let reversedWay = normalWay.split(``);
-        reversedWay = reverseWay.reverse();
-        reversedWay = reverseWay.join(``);
+        reversedWay = reversedWay.reverse();
+        reversedWay = reversedWay.join(``);
 
-        if (normalWay === reverseWay) {
+        if (normalWay === reversedWay) {
             this.setState({
                 palindrome: 'true'
             });
